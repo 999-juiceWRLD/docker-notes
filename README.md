@@ -18,4 +18,10 @@ to develop, distribute, maintain and use the target software.
 
 ## Basic Commands
 
-- a.
+- `docker info`: gives fundamental information about docker, like containers, images, server version, architecture.
+
+- `docker ps`: shows *process status*, where all the containers that are up and running. but `docker ps -a`, as `-a` is short for `-all`, shows both running and stopped containers.
+
+- `docker container ls` and `docker container ls -a` are both lists the containers.
+
+### To be continued
